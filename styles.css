@@ -1,0 +1,72 @@
+.navbar ul{
+
+    font-family:"roboto";
+    display:flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.navbar ul li {
+margin: auto 15px;
+list-style: none;
+
+
+}
+
+.navbar a{
+text-decoration: none;
+color: goldenrod;
+
+}
+a{
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.contact{
+
+
+}
+
+
+}
+
+@font-face{
+    font-family: "roboto";
+    src: url(Roboto-fonts/Roboto-Regular.ttf);
+}
+    
+
+#p1{
+    color: antiquewhite;
+}
+
+#p2{
+color: antiquewhite;
+
+}
+.submit-button{
+cursor: pointer;
+
+}
+
+
+
+
+body{
+
+background-color:grey ;
+}
+#h2{
+color: antiquewhite;
+}
+#h3{
+    color: brown;
+    font-family: 
+}
+
+#p{
+font-family: 
+color: brown;
+}

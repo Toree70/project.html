@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML PROJECT</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h2>VICTORIA'S PROJECT</h1>
+    <h2>VICTORIA'S PROJECT</h2>
     <h3>HTML PROJECT</h3>
-    <p>This project instructs us to create a portfolio web page using semantic tags, adding video/audio to the webpage, using local links, lists, or tables.
+    <p id="p1">This project instructs us to create a portfolio web page using semantic tags, adding video/audio to the webpage, using local links, lists, or tables.
     And also using Html forms.
     </p>
+
     <!-- nav bar -->
-    <nav>
+    <nav class="navbar">
+
     <ul>
     <li> <a href="#home">HOME</a></li>
     <li><a href="#contact">CONTACT</a></li>
@@ -20,10 +24,11 @@
     <li><a href="#work">WORK</a></li>
     </ul>
     </nav>
+
     <!-- home -->
      <section id="home">
         <h3>HOME</h3>
-        <p>The home page serves as the main entry point of a website or application, providing an overview of the content,features, and purpose of the site.</p>
+        <p id="p2">The home page serves as the main entry point of a website or application, providing an overview of the content,features, and purpose of the site.</p>
         </section>
         <section id="contact">
 <video src="WhatsApp Video 2024-11-25 at 14.27.20_616d28cb.mp4 "width 140 height="280" controls></video>
@@ -31,17 +36,20 @@
 
 
 
-<h3>CONTACT</h3>
-<P>This section provides you with information on how you can reach me.</P>
+<h3 class="contact">CONTACT</h3>
+<P>This section provdes you with information on how you can reach me.</P>
         </section>
         <section id="resume">
 <h3>RESUME</h3>
 <P>My resume is on my whatsapp profile; click here
     <a href="https://wa.me/message/KQN5MQI5THDRM1">whatsapp</a>
         </section>
+
+
+
         <section id="work">
-<h3>WORK</h3>
-<P>Details about work is also displayed on my whatsapp profile and you can reach me for more details.</P>
+    <h3>WORK</h3>
+    <P>Details about work is also displayed on my whatsapp profile and you can reach me for more details.</P>
 <!-- forms -->
         
         <form>
@@ -51,7 +59,7 @@
 <input type="text" name="email" id="email" required><br>
 <label for="message">MESSAGE</label><br>
 <input type="text" name="message" id="message" required><br>
-<button type="submit">Submit</button>
+<button class="submit-button" type="submit">Submit</button>
         </form>
     </section>
 </body>
